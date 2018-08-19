@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /services
+  port: 9000
+
+security:
+  oauth2:
+    client:
+      client-id: discount
+      client-secret: discountsecret
+      grant-type: authorization_code,refresh_token,password,client_credentials
+      scope: guest_user,register_user
+        
+          
+       
+          
+     
